@@ -1,0 +1,715 @@
+
+/* the star means universal selector. we are giving all elements to have a padding 
+and margin of zero. We are also allowing all elements to have the Philosoper font, a font weight of 400 and the style normal.*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+
+/* Poem Page*/
+.PoemPage {
+  background: #8db7ee;
+}
+
+/* Poem Page heading*/
+.Poem h1 {
+    color: #FEBCFB;
+    text-align: center;
+    font-size: 100px;
+    align-items: center;
+    padding-top: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+/*Card Containers for collection of poems page*/
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: #EFFBB8;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 15px 16px;
+    text-align: center;
+  }
+
+
+  .card-link {
+    position: absolute;
+    top: 0;
+    margin-top: 192px;
+    margin-left: 550px;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 448px;
+    /*background-color: red;  Where link is*/
+    }
+
+
+/*Story Page*/
+
+.StoryPage {
+  background: #8db7ee;
+}
+
+/*Story Page heading*/
+.Story h1 {
+    color: #FEBCFB;
+    text-align: center;
+    font-size: 100px;
+    align-items: center;
+    padding-top: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+/*Card Containers for collection of poems page*/
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: #EFFBB8;
+   
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+/*Card 3-6 placeholder for coming soon content called card3*/
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 550px;
+  background-color: #EFFBB8;
+}
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/*The regular font that is used for the website*/
+.philosopher-regular {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /*The bold font that is used for the website*/
+  .philosopher-bold {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /*The regular font in italics that is used for the website*/
+  .philosopher-regular-italic {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  /*The bold font in italics that is used for the website*/
+  .philosopher-bold-italic {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+/*Wrapper sections cover the background of the pages and focus on color and size.*/
+.wrapper{
+    background: #8db7ee; 
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper1{
+    background: #8db7ee; 
+    min-height: 250vh;
+}
+
+.wrapper2{
+    background: #8db7ee; 
+    min-height: 500vh;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+    border: 2px solid #FEBCFB;
+
+}
+
+
+span {
+    color:rgb(165, 167, 255);
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,5,500,0.4);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-left: 7px;
+    margin-top: 8px;
+    border: 2px solid black;
+}
+
+
+
+ 
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #FEBCFB;
+    user-select: none;
+}
+
+
+  /* Home Page Title*/
+
+.center h1{
+    font-size: 100px;
+    font-weight: Bold;
+    width: 885px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*Home Page Subtitle*/
+.center h2{
+    font-size: 50px;
+    font-weight: Bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+
+
+
+  /* Home Page Buttons */
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 23px;
+    -webkit-text-stroke-width: 0.50px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    color: #FEBCFB;
+    background: white;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.buttons button:hover{
+    color: #FEBCFB;
+    transition: .4s;
+    background: #EFFBB8;
+}
+
+
+/*Post for content image and Poetry after clicking on card*/
+
+  .Article {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%; /* width of image */
+    border-radius: 5px;
+    margin-top: 0px; /*Change later for spacing*/
+    margin-bottom: 500px;
+    margin-left: 500px;
+    padding-bottom: 50px; /*area of text*/
+    background-color: #B4CFF6;
+    max-height: fit-content;
+   
+  }
+
+/*Formatting paragraph for content*/
+  .Article p{
+
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+  }
+
+  /*Formatting title for content*/
+  .Article h1{
+
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+
+/*Formatting author at the end of content*/
+  .Article p em{
+
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+   
+  }
+
+
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+/*Container for poetry content*/
+  .ArticleContainer {
+    padding: 2px 16px;
+    text-align: center;
+    
+   
+  }
+  /*Formatting title for poetry content*/
+  .ArticleContainer h2{
+    padding: 30px 10px;
+    text-align: center;
+    
+   
+  }
+
+
+  /* Open Post for content image and Story */
+
+  .Article2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%; /* width of image */
+    border-radius: 5px;
+    margin-top: 0px; /*Change later for spacing*/
+    margin-bottom: 500px;
+    margin-left: 500px;
+    padding-bottom: 50px; /*area of text*/
+    background-color: #B4CFF6;
+
+   
+   
+  }
+
+
+/*Formatting paragraph for story content*/
+  .Article2 p{
+
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+  }
+
+  /*Formatting title for story content*/
+  .Article2 h1{
+
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+
+/*Formatting author at the end of content*/
+  .Article2 p em{
+
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+   
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+
+ /*Formatting content in container*/
+  .ArticleContainer {
+    padding: 2px 16px;
+    text-align: center;
+    
+   
+  }
+
+  /*Formatting container for content*/
+  .Article2Container h2{
+    padding: 30px 10px;
+    text-align: center;
+    
+   
+  }
+
+/*Formatting title for content*/
+  .Article2Container h1{
+
+    text-align: center;
+  
+  }
+
+
+  /*SIDEBAR lines 412 - 712*/
+
+  :root{
+    /* ===== Colors ===== */
+    --sidebar-color: #FFF;
+    --primary-color:  #8DB7EE;/*#695CFE;*/
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+ /*Darkmode*/
+body.dark{
+
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+}
+
+
+  /* ===== Sidebar ===== */
+ .sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 180px;
+  padding: 10px 14px;
+  background: var(--sidebar-color);
+  transition: var(--tran-05);
+  z-index: 100;  
+}
+.sidebar.close{
+  width: 60px;
+  
+}
+
+.sidebar li{
+  height: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+ /*Sidebar logo image*/
+.sidebar header .image,
+.sidebar .icon{
+  min-width: 60px;
+  border-radius: 6px;
+}
+
+ /*Sidebar icon formatting*/
+.sidebar .icon{
+  min-width: 60px;
+  border-radius: 6px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.sidebar .text,
+.sidebar .icon{
+  color: var(--text-color);
+  transition: var(--tran-03);
+}
+
+.sidebar .text{
+  font-size: 17px;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 1;
+}
+.sidebar.close .text{
+  opacity: 0;
+}
+/* =========================== */
+
+.sidebar header{
+  position: relative;
+}
+
+.sidebar header .image-text{
+  display: flex;
+  align-items: center;
+}
+.sidebar header .logo-text{
+  display: flex;
+  flex-direction: column;
+}
+
+header .image-text .name {
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header .image-text .profession{
+  font-size: 16px;
+  margin-top: -2px;
+  display: block;
+}
+
+.sidebar header .image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar header .image img{
+  width: 47px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.sidebar header .toggle{
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%) rotate(180deg);
+  height: 25px;
+  width: 25px;
+  background-color:#FEBCFB;
+  /*background-color: var(--primary-color); Made toggle purple like buttons*/
+  color: var(--sidebar-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  transition: var(--tran-05);
+}
+
+body.dark .sidebar header .toggle{
+  /*color: var(--text-color); Made dark mode for circle open close button*/ 
+  background-color:#FEBCFB;
+}
+
+.sidebar.close .toggle{
+  transform: translateY(-50%) rotate(0deg);
+  background-color:#FEBCFB;
+}
+
+.sidebar .menu{
+  margin-top: 40px;
+}
+
+.sidebar li.search-box{
+  border-radius: 6px;
+  background-color: var(--primary-color-light);
+  cursor: pointer;
+  transition: var(--tran-05);
+}
+
+.sidebar li.search-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color-light);
+  color: var(--text-color);
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: var(--tran-05);
+}
+.sidebar li a{
+  list-style: none;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: var(--tran-03);
+}
+
+.sidebar li a:hover{
+  background-color: var(--primary-color);
+}
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+  color: var(--sidebar-color);
+}
+body.dark .sidebar li a:hover .icon,
+body.dark .sidebar li a:hover .text{
+  color: var(--text-color);
+}
+
+.sidebar .menu-bar{
+  height: calc(100% - 55px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+.menu-bar::-webkit-scrollbar{
+  display: none;
+}
+.sidebar .menu-bar .mode{
+  border-radius: 6px;
+  background-color: var(--primary-color-light);
+  position: relative;
+  transition: var(--tran-05);
+  margin-bottom: 20px;;
+}
+
+.menu-bar .mode .sun-moon{
+  height: 50px;
+  width: 60px;
+}
+
+.mode .sun-moon i{
+  position: absolute;
+}
+.mode .sun-moon i.sun{
+  opacity: 0;
+}
+body.dark .mode .sun-moon i.sun{
+  opacity: 1;
+}
+body.dark .mode .sun-moon i.moon{
+  opacity: 0;
+}
+
+.menu-bar .bottom-content .toggle-switch{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.toggle-switch .switch{
+  position: relative;
+  height: 22px;
+  width: 40px;
+  border-radius: 25px;
+  background-color: var(--toggle-color);
+  transition: var(--tran-05);
+}
+
+.switch::before{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  background-color: var(--sidebar-color);
+  transition: var(--tran-04);
+}
+
+body.dark .switch::before{
+  left: 20px;
+}
+
+.home{
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 250px;
+  height: 100vh;
+  width: calc(100% - 250px);
+  background-color: var(--body-color);
+  transition: var(--tran-05);
+}
+.home .text{
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--text-color);
+  padding: 12px 60px;
+}
+
+.sidebar.close ~ .home{
+  left: 70px;
+  height: 100vh;
+  width: calc(100% - 78px);
+}
+
+
+  
